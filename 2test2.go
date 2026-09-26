@@ -21,11 +21,14 @@ func test2() {
 }
 func test3(a float64, b float64) {
 	c := 10.0 //短声明只能声明变量，不能声明常量(但是c:=10默认为int,c:=10.0默认为float64。float64占用8字节，float32占用4字节)
+	num := 100
+	str := "staring"
 	if a == b {
 		fmt.Println("这是测试3")
 		test2()
 		fmt.Println("Test")
 		fmt.Println(a + b + c)
+		fmt.Printf("c:=%.1f num:=%d str:=%s", c, num, str) //注意printf与println区别
 	}
 
 }
