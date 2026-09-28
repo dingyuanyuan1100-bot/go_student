@@ -14,4 +14,6 @@ func main() {
 	per1 := &count12
 	fmt.Println(per1)
 
+	//指针分为 普通型指针 数组型指针 结构体型指针 函数指针 指针的指针（二级指针） nil指针(var pro *int)
+
 }
